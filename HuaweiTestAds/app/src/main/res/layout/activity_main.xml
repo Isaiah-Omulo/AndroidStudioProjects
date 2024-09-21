@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:hwads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Hello World"
+        android:layout_gravity="center"
+        android:paddingRight="10dp"
+        android:paddingLeft="20dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-thin" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        >
+
+        <com.huawei.hms.ads.banner.BannerView
+            android:id="@+id/hw_banner_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            hwads:adId="testw6vs28auh3"
+            hwads:bannerSize="BANNER_SIZE_360_57"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

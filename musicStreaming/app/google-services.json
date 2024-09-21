@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "883809619909",
+    "project_id": "musicstreaming-9cd6d",
+    "storage_bucket": "musicstreaming-9cd6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883809619909:android:b8cf948161c0541b8005ac",
+        "android_client_info": {
+          "package_name": "com.nyandori.musicstreaming"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiA8IpQAO4TOIJgxIXw9IYR-MxgZK2Poc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

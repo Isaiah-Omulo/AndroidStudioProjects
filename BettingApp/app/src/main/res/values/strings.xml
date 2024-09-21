@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BetGenius</string>
+    <string name="time">Time</string>
+    <string name="league">League</string>
+    <string name="match">Match</string>
+    <string name="tip">Tips</string>
+</resources>

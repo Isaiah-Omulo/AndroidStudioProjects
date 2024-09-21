@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Goodnight Blessings</string>
+    <string name="app_title">Good Night Blessings By FR. Eustace</string>,
+    <string name="home">Home</string>
+    <string name="stop">STOP</string>
+    <string name="click">Click</string>
+    <string name="back">Back</string>
+    <string name="heading">Today Good Night Verse</string>
+    <string name="today">Today Bible Verse</string>
+    <string name="admob_banner_id">  ca-app-pub-1333228639990132/9980543518</string>
+</resources>

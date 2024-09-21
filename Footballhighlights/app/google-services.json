@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "467006891365",
+    "firebase_url": "https://football-highlights-3850d-default-rtdb.firebaseio.com",
+    "project_id": "football-highlights-3850d",
+    "storage_bucket": "football-highlights-3850d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467006891365:android:e5bf03a25605b05562ad8c",
+        "android_client_info": {
+          "package_name": "com.nyandori.footballhighlights"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcpT0-OTRzwBBiWGPX8ne0St9IHogZEz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

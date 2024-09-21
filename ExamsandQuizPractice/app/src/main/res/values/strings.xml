@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QuizHub: Ultimate Learning Platform</string>
+    <string name="categories">See Categories</string>
+    <string name="questions">See Questions</string>
+    <string name="show_all">Show All Answers</string>
+    <string name="let_us_play_this_awesome_quiz_app_to_enhance_your_knowledge">Let us play this awesome quiz app to enhance your knowledge.</string>
+    <string name="questionsToAnswer">How many questions do you want to answer? Select from
+    the following.
+    </string>
+</resources>

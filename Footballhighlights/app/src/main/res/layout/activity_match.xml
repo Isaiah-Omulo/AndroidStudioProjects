@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MatchActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_title"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/brown"
+        android:src="@drawable/football_icon" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:id="@+id/constraint"
+        android:layout_below="@+id/imageView2"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/homeTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            tools:text="Home Team"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scores"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="scores"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+
+        <TextView
+            android:id="@+id/awayTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="15dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Home Team" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/parentRelative"
+        android:layout_below="@+id/constraint"
+        android:layout_height="wrap_content" >
+        <ProgressBar
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:id="@+id/progress_bar"/>
+    </RelativeLayout>
+
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/parentRelative"
+
+        >
+
+    </com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/youtube_player_view"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:backgroundTint="@color/backColor"
+        android:text="@string/back"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/youtube_player_view"
+        android:layout_alignEnd="@id/btnBack"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="-285dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_bg"
+        android:backgroundTint="@color/next"
+        android:padding="10dp"
+        android:text="@string/match_details"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

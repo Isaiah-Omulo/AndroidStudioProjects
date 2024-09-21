@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "271541815451",
+    "firebase_url": "https://betting-50acd-default-rtdb.firebaseio.com",
+    "project_id": "betting-50acd",
+    "storage_bucket": "betting-50acd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271541815451:android:9fff277d6cb58a8dd91e3e",
+        "android_client_info": {
+          "package_name": "com.nyandori.bettingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAs_2V4OUlFUZYzbLMemThdzeyqfR9xac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GoodNightMessageActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_title"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginStart="10sp"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@color/good"
+        android:src="@drawable/goodnight_message" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/itune_stock"   />
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <me.jagar.chatvoiceplayerlibrary.VoicePlayerView
+            android:id="@+id/voicePlayerView"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            app:enableVisualizer="true"
+            app:visualizationPlayedColor="#ff7700"
+            app:visualizationNotPlayedColor="#727171"
+            app:playPauseBackgroundColor="#ff7700"
+            app:timingBackgroundColor="#6AFF7700"
+            app:seekBarProgressColor="#000"
+            app:showShareButton="false"
+            app:shareCornerRadius="100"
+            app:playPauseCornerRadius="100"
+            app:showTiming="true"
+            app:viewCornerRadius="100"
+            app:viewBackground="#C6C4CF"
+            app:progressTimeColor="#000"
+            app:seekBarThumbColor="#FFC107"
+            app:shareBackgroundColor="#ff7700"
+            app:playProgressbarColor="#ff7700"
+            app:shareText="SHARE ME"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:background="@drawable/rounded_corner"
+            android:text="@string/stop"
+            android:backgroundTint="@color/brown"
+            android:textSize="18sp"
+            android:id="@+id/stop"
+            android:textColor="@color/white" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:layout_marginBottom="30dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/brown"
+            android:textColor="@color/white"
+            android:contentDescription="@string/home"
+            android:id="@+id/home"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:text="@string/today"
+            android:layout_marginBottom="30dp"
+            android:layout_marginStart="80dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/primaryColor"
+            android:textColor="@color/white"
+            android:contentDescription="@string/home"
+            android:id="@+id/today"
+            />
+    </LinearLayout>
+
+</LinearLayout>

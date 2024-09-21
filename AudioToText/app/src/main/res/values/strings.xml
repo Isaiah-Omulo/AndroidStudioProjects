@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AudioToText</string>
+    <string name="mic_speak">Click on Microphone to Speak</string>
+
+</resources>

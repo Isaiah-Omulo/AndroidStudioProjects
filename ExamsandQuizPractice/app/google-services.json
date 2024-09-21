@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "534765234030",
+    "firebase_url": "https://examvedaquestions-default-rtdb.firebaseio.com",
+    "project_id": "examvedaquestions",
+    "storage_bucket": "examvedaquestions.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534765234030:android:c44c9f1b590ac0786b837f",
+        "android_client_info": {
+          "package_name": "com.nyandori.examsandquizpractice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEjiQ_4OiVDHTARTigBqhpC1ebSzhYQ8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

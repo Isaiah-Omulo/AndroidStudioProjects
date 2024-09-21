@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Football highlights</string>
+    -
+    <string name="app_title">Football highlights</string>
+    <string name="back">Back</string>
+
+    <string name="match_details">Match Details</string>
+    <string name="cards">Cards</string>
+    <string name="goals">Goals</string>
+</resources>

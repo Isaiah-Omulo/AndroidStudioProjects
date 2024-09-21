@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "76211807541",
+    "project_id": "goodnightmessage",
+    "storage_bucket": "goodnightmessage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76211807541:android:ee9ea261d406bc4c4e187c",
+        "android_client_info": {
+          "package_name": "com.nyandori.goodnightblessings"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDwG64M5MauLYvyQ5ab954vLhvbVnySZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

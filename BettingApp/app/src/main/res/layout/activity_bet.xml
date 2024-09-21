@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".betActivity"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/img"
+            android:id="@+id/icon_image"
+            />
+        <!-- Header Section -->
+
+        <LinearLayout
+            android:id="@+id/text_title"
+            android:layout_below="@id/icon_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="@color/blue"
+            >
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <!-- Time Details Section -->
+        <LinearLayout
+            android:id="@+id/layout_time"
+            android:backgroundTint="@color/timeColor"
+            android:background="@drawable/rounded_corner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/text_title"
+           android:layout_marginTop="4dp"
+           android:padding="10dp"
+
+           >
+            <TextView
+                android:id="@+id/text_time"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Match Time:"
+                android:textSize="30sp"
+                android:layout_marginTop="8dp" />
+            <TextView
+                android:id="@+id/text_time_holder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                tools:text="2:00 PM"
+                android:textSize="30sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="10dp" />
+
+        </LinearLayout>
+        <!-- League Details Section -->
+        <LinearLayout
+            android:id="@+id/layout_league"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/layout_time"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="@color/turquose"
+            android:background="@drawable/rounded_corner"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/text_league"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="League:"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_marginTop="8dp"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/text_league_holder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Premier League"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="10dp"
+                android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+
+
+        <!-- Match Details Section -->
+        <LinearLayout
+            android:id="@+id/layout_match"
+            android:backgroundTint="@color/matchColor"
+            android:background="@drawable/rounded_corner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/layout_league"
+            android:layout_marginTop="10dp"
+
+            android:padding="16dp">
+            <TextView
+                android:id="@+id/text_match"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Match:"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:layout_marginTop="8dp"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/text_match_holder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="2:00 PM"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="10dp"
+                android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+
+
+        <!-- Tips Section -->
+        <LinearLayout
+            android:id="@+id/layout_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/layout_match"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="@color/tipColor"
+            android:background="@drawable/rounded_corner"
+            android:padding="10dp"
+            >
+            <TextView
+                android:id="@+id/text_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tip:"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:layout_marginTop="8dp"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/text_tip_holder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Away win"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="10dp"
+                android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+
+
+
+
+        <!-- Navigation Buttons -->
+
+
+        <LinearLayout
+            android:id="@+id/layout_match_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_title"
+            android:layout_marginTop="29dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_tip"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:id="@+id/layout_btn"
+            >
+
+            <!-- Back Button -->
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/orange"
+                android:text="Back" />
+
+            <!-- Home Button -->
+
+            <!-- Next Button -->
+            <Button
+                android:id="@+id/btn_home"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_corner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:text="Home" />
+
+            <Button
+                android:id="@+id/btn_next"
+                android:background="@drawable/rounded_corner"
+
+                android:textColor="@color/white"
+                android:backgroundTint="@color/green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Next" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="bottom|center"
+            android:layout_below="@id/layout_btn"
+            >
+
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-1333228639990132/2203717194">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

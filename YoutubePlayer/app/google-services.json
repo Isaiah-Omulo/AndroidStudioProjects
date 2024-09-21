@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1036956499108",
+    "firebase_url": "https://motivationalvideos-90c8c-default-rtdb.firebaseio.com",
+    "project_id": "motivationalvideos-90c8c",
+    "storage_bucket": "motivationalvideos-90c8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036956499108:android:41903a765c0ac01f537a31",
+        "android_client_info": {
+          "package_name": "com.nyandori.youtubeplayer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXJLYCnMjLrHHx_omvUiVoCpa-Ciaf53w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="100dp"
+    android:id="@+id/iconMic"
+    android:src="@drawable/ic_mic"
+     />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iconText" 
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/mic_speak"  
+        android:textAlignment="center"
+        android:layout_below="@id/iconMic"   
+        android:textAllCaps="false"
+        android:textColor="@color/black"   
+        android:textSize="18sp"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/output"
+        android:layout_below="@+id/iconText"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:text="Text Output will appear here"
+        android:gravity="center"
+        android:layout_marginTop="70dp" />
+
+
+
+</RelativeLayout>
